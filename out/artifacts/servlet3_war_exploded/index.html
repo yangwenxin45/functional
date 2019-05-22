@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    // 初始化，参数为url
+    var sse = new EventSource("SSE");
+
+    sse.onmessage = function (e) {
+        console.log("message", e.data, e);
+    }
+
+    sse.addEventListener("me", function (e) {
+        console.log("me event", e.data);
+        if (e.data == 3) {
+            sse.close();
+        }
+    })
+</script>
+
+</body>
+</html>
