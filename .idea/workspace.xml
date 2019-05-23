@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7247b6-da74-4a25-9a3b-bf68d11280f8" name="Default Changelist" comment="" />
+    <list default="true" id="2a7247b6-da74-4a25-9a3b-bf68d11280f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webflux/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webflux/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/webflux/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +22,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,10 +78,10 @@
         <option value="$PROJECT_DIR$/servlet3/web/index.html" />
         <option value="$PROJECT_DIR$/webflux/pom.xml" />
         <option value="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/WebfluxApplication.java" />
-        <option value="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java" />
-        <option value="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/webflux/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java" />
       </list>
     </option>
   </component>
@@ -80,9 +99,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="590" />
-    <option name="y" value="72" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="493" />
+    <option name="y" value="37" />
     <option name="width" value="893" />
     <option name="height" value="681" />
   </component>
@@ -92,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -141,13 +161,42 @@
               <item name="webflux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functional" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functional" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functional" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +207,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558520751107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558598943441" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/servlet3/web/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -346,17 +395,18 @@
       <workItem from="1558142711527" duration="17390000" />
       <workItem from="1558312818947" duration="6148000" />
       <workItem from="1558490570595" duration="18836000" />
-      <workItem from="1558520434010" duration="312000" />
+      <workItem from="1558520434010" duration="719000" />
+      <workItem from="1558573985175" duration="13845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44919000" />
+    <option name="totallyTimeSpent" value="59171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5797101" visible="true" weight="0.326284" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5797101" weight="0.46107784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.19640718" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,7 +416,7 @@
       <window_info id="Web" order="7" sideWeight="0.42028984" side_tool="true" weight="0.40838322" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53170735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.63577235" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -660,16 +710,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webflux/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/ReactorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/bind/annotation/GetMapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -726,20 +766,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.8.2/mongodb-driver-core-3.8.2.jar!/com/mongodb/internal/connection/SaslAuthenticator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="55">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webflux/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/ReactorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="167">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -748,18 +807,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="191">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#3750#3751#0" expanded="true" />
+            <element signature="e#3798#3799#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webflux/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/webflux/src/main/java/net/yangwenxin/webflux/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        <state relative-caret-position="252">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
