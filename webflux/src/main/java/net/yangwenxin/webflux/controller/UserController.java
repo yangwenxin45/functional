@@ -2,12 +2,15 @@ package net.yangwenxin.webflux.controller;
 
 import net.yangwenxin.webflux.domain.User;
 import net.yangwenxin.webflux.repository.UserRepository;
+import net.yangwenxin.webflux.util.CheckUtil;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/user")
@@ -44,10 +47,11 @@ public class UserController {
      * @return
      */
     @PostMapping("/")
-    public Mono<User> createUser(@RequestBody User user) {
+    public Mono<User> createUser(@Valid @RequestBody User user) {
         // spring data jpa 里面，新增和修改都是save，有id是修改，id为空是新增
         // 根据实际情况是否置空id
         user.setId(null);
+        CheckUtil.checkName(user.getName());
         return this.repository.save(user);
     }
 
@@ -74,8 +78,9 @@ public class UserController {
     @PutMapping("/{id}")
     public Mono<ResponseEntity<User>> updateUser(
             @PathVariable("id") String id,
-            @RequestBody User user
+            @Valid @RequestBody User user
     ) {
+        CheckUtil.checkName(user.getName());
         return this.repository.findById(id)
                 // flatMap操作数据
                 .flatMap(u -> {
